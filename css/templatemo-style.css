@@ -332,9 +332,7 @@ h1 {
     padding: 80px 0 80px 0;
     color: #fff;
 }
-#about .media:not(:last-of-type){
-    margin-bottom: 60px;
-}
+
 #about .row:first-of-type{
     margin-bottom: 60px;
 }
@@ -872,6 +870,11 @@ footer .social_icon {
         height: auto;
         padding: 10px 20px;
         margin-top: 10px;
+    }
+}
+@media only screen and (min-width: 640px){
+    #about .media:not(:last-of-type){
+        margin-bottom: 60px;
     }
 }
 
