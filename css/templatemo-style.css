@@ -571,38 +571,6 @@ html[xmlns] .flexslider .slides {
   }
 }
 /* end about */
-/* start social icon */
-.social_icon {
-  padding: 0;
-}
-.social_icon li {
-  display: inline-block;
-  position: relative;
-}
-ul {
-  margin-bottom: 0;
-}
-.social_icon li a {
-  background: #303030;
-  border-radius: 50%;
-  cursor: pointer;
-  color: #FFFFFF;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
-  text-decoration: none;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-}
-.social_icon li a:hover {
-  background: #0090FD;
-  color: #FFFFFF;
-}
-footer .social_icon {
-  margin-top: 10px;
-}
-/* end social icon */
 /* start service */
 #service {
   min-height: 300px;
