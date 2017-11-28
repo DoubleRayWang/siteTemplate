@@ -1,14 +1,13 @@
 /* HTML document is loaded. DOM is ready.
 -------------------------------------------*/
-$(function(){
+$(function () {
     /* FlexSlider */
     $('.flexslider').flexslider({
         animation: "fade",
-        directionNav: false
+        directionNav: false,
+        controlNav: true
     });
     
     $(".rotate").textrotator();
-    
     new WOW().init();
-    
 });
