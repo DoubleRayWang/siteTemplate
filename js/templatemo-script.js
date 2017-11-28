@@ -4,7 +4,7 @@ $(function () {
     /* FlexSlider */
     $('.flexslider').flexslider({
         animation: "fade",
-        directionNav: false,
+        directionNav: true,
         controlNav: true
     });
     
