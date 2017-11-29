@@ -616,36 +616,6 @@ html[xmlns] .flexslider .slides {
 }
 /* end service */
 /* start newsletter */
-#newsletter {
-  min-height: 300px;
-  padding: 80px 0 80px 0;
-}
-#newsletter h3 {
-  margin-bottom: 30px;
-}
-#newsletter .col-md-4 {
-  padding: 8px;
-}
-#newsletter .news-img {
-  width: 100%;
-  height: 180px;
-}
-#newsletter .news-img img {
-  width: 100%;
-  height: 100%;
-}
-#newsletter .news-list > li {
-  padding-top: 6px;
-}
-#newsletter .news-list > li span {
-  font-size: 12px;
-}
-#newsletter .news-list > li time {
-  font-size: 12px;
-}
-#newsletter .news-list > li:not(:last-child) {
-  border-bottom: 1px dashed #ddd;
-}
 /* end newsletter */
 /* start contact */
 #contact {
