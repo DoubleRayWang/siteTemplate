@@ -2,12 +2,17 @@
 -------------------------------------------*/
 $(function () {
     /* FlexSlider */
-    $('.flexslider').flexslider({
+    /*$('.flexslider').flexslider({
         animation: "fade",
         directionNav: false,
         controlNav: true
-    });
-    
+    });*/
     $(".rotate").textrotator();
-    new WOW().init();
 });
+window.onload=function () {
+    new WOW().init();
+    $('#loading').fadeOut(200,function () {
+        $(this).parent().removeClass('modal-open')
+            .end().remove();
+    });
+}
