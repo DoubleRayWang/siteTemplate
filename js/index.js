@@ -1,12 +1,6 @@
 /* HTML document is loaded. DOM is ready.
 -------------------------------------------*/
 
-//loadingHandler
-function loadingHandler(o) {
-
-}
-
-
 $(function () {
     var posterTvGrid = function (o, options, data) {
         this.parent = $("#" + o);
@@ -374,7 +368,6 @@ $(function () {
                 (function (index) {
                     var Img = new Image();
                     Img.src = _this.srcList[index].img;
-                    
                     if (Img.complete) {
                         _this.callback();
                     } else {
