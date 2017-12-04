@@ -433,12 +433,14 @@ h1 {
         .modal-header{
           color: @color;
           border-bottom-width: 0;
+          user-select: none;
           h4{
             font-weight: 700;
             font-size: 26px;
           }
           .close{
             position: fixed;
+            z-index: 99;
             right: 50px;
             top: 50px;
             width: 46px;
