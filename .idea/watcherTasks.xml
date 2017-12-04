@@ -20,7 +20,7 @@
         </array>
       </option>
       <option name="outputFromStdout" value="true" />
-      <option name="program" value="E:/Web/Configuration/publicContent/grunt-contrib-less/node_modules/.bin/lessc.cmd" />
+      <option name="program" value="D:/Configuration/grunt-contrib-less/node_modules/.bin/lessc.cmd" />
       <option name="runOnExternalChanges" value="true" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="false" />

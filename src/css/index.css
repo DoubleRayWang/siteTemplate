@@ -138,17 +138,8 @@ h1 {
   z-index: 7;
   width: 100%;
   height: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.4);
 }
@@ -159,7 +150,6 @@ h1 {
   color: #FFFFFF;
   font-weight: bold;
   margin: 40px 0 0 0;
-  -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   height: 50px;
   width: 250px;
@@ -174,16 +164,9 @@ h1 {
 /* start simpletextrotator */
 .rotating {
   display: inline-block;
-  -webkit-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
-  -o-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  -webkit-transform: rotateX(0) rotateY(0) rotateZ(0);
-  -ms-transform: rotateX(0) rotateY(0) rotateZ(0);
   transform: rotateX(0) rotateY(0) rotateZ(0);
-  -webkit-transition: 0.5s;
   transition: 0.5s;
-  -webkit-transform-origin-x: 50%;
 }
 .rotating.flip {
   position: relative;
@@ -192,16 +175,11 @@ h1 {
 .rotating .back {
   left: 0;
   top: 0;
-  -webkit-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 .rotating .front {
   position: absolute;
   display: inline-block;
-  -webkit-transform: translate3d(0, 0, 1px);
-  -ms-transform: translate3d(0, 0, 1px);
   transform: translate3d(0, 0, 1px);
 }
 .rotating.flip .front {
@@ -212,36 +190,24 @@ h1 {
   opacity: 0;
 }
 .rotating.spin {
-  -webkit-transform: rotate(360deg) scale(0);
-  -ms-transform: rotate(360deg) scale(0);
   transform: rotate(360deg) scale(0);
 }
 .rotating.flip .back {
   z-index: 2;
   display: block;
   opacity: 1;
-  -webkit-transform: rotateY(180deg) translate3d(0, 0, 0);
-  -ms-transform: rotateY(180deg) translate3d(0, 0, 0);
   transform: rotateY(180deg) translate3d(0, 0, 0);
 }
 .rotating.flip.up .back {
-  -webkit-transform: rotateX(180deg) translate3d(0, 0, 0);
-  -ms-transform: rotateX(180deg) translate3d(0, 0, 0);
   transform: rotateX(180deg) translate3d(0, 0, 0);
 }
 .rotating.flip.cube .front {
-  -webkit-transform: translate3d(0, 0, 100px) scale(0.9, 0.9);
-  -ms-transform: translate3d(0, 0, 100px) scale(0.85, 0.85);
   transform: translate3d(0, 0, 100px) scale(0.85, 0.85);
 }
 .rotating.flip.cube .back {
-  -webkit-transform: rotateY(180deg) translate3d(0, 0, 100px) scale(0.9, 0.9);
-  -ms-transform: rotateY(180deg) translate3d(0, 0, 100px) scale(0.85, 0.85);
   transform: rotateY(180deg) translate3d(0, 0, 100px) scale(0.85, 0.85);
 }
 .rotating.flip.cube.up .back {
-  -webkit-transform: rotateX(180deg) translate3d(0, 0, 100px) scale(0.9, 0.9);
-  -ms-transform: rotateX(180deg) translate3d(0, 0, 100px) scale(0.85, 0.85);
   transform: rotateX(180deg) translate3d(0, 0, 100px) scale(0.85, 0.85);
 }
 /* end simpletextrotator */
@@ -366,30 +332,30 @@ h1 {
 #webApp {
   /* 滚动条 */
 }
-#webApp::-webkit-scrollbar-thumb:horizontal {
+#webApp ::-webkit-scrollbar-thumb:horizontal {
   /*水平滚动条的样式*/
   width: 5px;
   background-color: #ccc;
   border-radius: 6px;
 }
-#webApp::-webkit-scrollbar-track-piece {
+#webApp ::-webkit-scrollbar-track-piece {
   background-color: #fff;
   /*滚动条的背景颜色*/
   border-radius: 0;
   /*滚动条的圆角宽度*/
 }
-#webApp::-webkit-scrollbar {
+#webApp ::-webkit-scrollbar {
   width: 5px;
   /*滚动条的宽度*/
   height: 5px;
   /*滚动条的高度*/
 }
-#webApp::-webkit-scrollbar-thumb:vertical {
+#webApp ::-webkit-scrollbar-thumb:vertical {
   /*垂直滚动条的样式*/
   background-color: #a8a8a8;
   border-radius: 4px;
 }
-#webApp::-webkit-scrollbar-thumb:hover {
+#webApp ::-webkit-scrollbar-thumb:hover {
   /*滚动条的hover样式*/
   background-color: #939393;
   -webkit-border-radius: 4px;
@@ -453,51 +419,6 @@ h1 {
   font-weight: 400;
   padding: 0 0 40px 0;
 }
-#contact .form-control {
-  background: #404040;
-  border: none;
-  border-radius: 2px;
-  box-shadow: none;
-  color: #FFFFFF;
-  margin: 10px 0 10px 0;
-  opacity: 0.9;
-}
-#contact .form-control::-moz-placeholder {
-  color: #FFFFFF;
-  opacity: 1;
-}
-#contact .form-control:-ms-input-placeholder {
-  color: #FFFFFF;
-}
-#contact .form-control::-webkit-input-placeholder {
-  color: #FFFFFF;
-}
-#contact input {
-  height: 50px;
-}
-#contact textarea {
-  height: 120px;
-}
-#contact input[type="submit"] {
-  background: #0090FD;
-  border: none;
-  color: #FFFFFF;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-  margin: 10px 0 40px 0;
-}
-#contact input[type="submit"]:focus,
-#contact input[type="submit"]:hover {
-  background: #FFFFFF;
-  border-color: transparent;
-  color: #0090FD;
-}
-#map-canvas {
-  border: none;
-  width: 100%;
-  height: 400px;
-  margin: 0 0 40px 0;
-}
 /* end contact */
 @media only screen and (max-width: 1199px) {
   h1 {
@@ -535,7 +456,6 @@ h1 {
     bottom: 0;
     opacity: 0;
     position: absolute;
-    -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
   }
 }
@@ -571,7 +491,6 @@ h1 {
     bottom: 0;
     opacity: 0;
     position: absolute;
-    -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
   }
 }
