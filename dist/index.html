@@ -9,7 +9,8 @@
 	<meta name="keywords" content="">
 	<meta name="description" content="">
 	<!--<link rel="icon" type="image/png" href="images/favicon.png">-->
-	<link href="//cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+	<!--<link href="//cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">-->
+	<link rel="stylesheet" href="lib/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/index.min.css">
 </head>
 <body data-spy="scroll" data-target=".navbar-collapse" class="modal-open">
@@ -129,69 +130,85 @@
 		</p>
 		<div class="row">
 			<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="3800">
-				<div class="case-wrap" data-title="出行" data-demo="travel">
+				<div class="case-wrap text-center" data-title="出行" data-demo="travel">
 					<img src="images/company-img-1.jpg" alt="出行">
 					<p class="case-hover hidden-xs">
-                        <span>出行</span>
+						<i class="glyphicon glyphicon-search"></i>
+						<span>出行说明</span>
                     </p>
+					<span class="case-title">出行</span>
 				</div>
 			</div>
 			<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="3800">
-				<div class="case-wrap" data-title="家居" data-demo="furnishing">
+				<div class="case-wrap text-center" data-title="家居" data-demo="furnishing">
 					<img src="images/company-img-2.jpg" alt="家居">
                     <p class="case-hover hidden-xs">
-                        <span>家居</span>
+						<i class="glyphicon glyphicon-search"></i>
+                        <span>家居说明</span>
                     </p>
+					<span class="case-title">家居</span>
 				</div>
 			</div>
 			<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="3800">
-				<div class="case-wrap" data-title="服饰" data-demo="clothes">
+				<div class="case-wrap text-center" data-title="服饰" data-demo="clothes">
 					<img src="images/company-img-3.jpg" alt="服饰">
                     <p class="case-hover hidden-xs">
-                        <span>服饰</span>
+						<i class="glyphicon glyphicon-search"></i>
+                        <span>服饰说明</span>
                     </p>
+					<span class="case-title">服饰</span>
 				</div>
 			</div>
 			<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="3800">
-				<div class="case-wrap" data-title="旅行" data-demo="trip">
+				<div class="case-wrap text-center" data-title="旅行" data-demo="trip">
 					<img src="images/company-img-4.jpg" alt="旅行">
                     <p class="case-hover hidden-xs">
-                        <span>旅行</span>
+						<i class="glyphicon glyphicon-search"></i>
+                        <span>旅行说明</span>
                     </p>
+					<span class="case-title">旅行</span>
 				</div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="3800">
-				<div class="case-wrap" data-title="房产" data-demo="house">
+				<div class="case-wrap text-center" data-title="房产" data-demo="house">
 					<img src="images/company-img-1.jpg" alt="房产">
                     <p class="case-hover hidden-xs">
-                        <span>房产</span>
+						<i class="glyphicon glyphicon-search"></i>
+                        <span>房产说明</span>
                     </p>
+					<span class="case-title">房产</span>
 				</div>
 			</div>
 			<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="3800">
-				<div class="case-wrap" data-title="美食" data-demo="food">
+				<div class="case-wrap text-center" data-title="美食" data-demo="food">
 					<img src="images/company-img-2.jpg" alt="美食">
                     <p class="case-hover hidden-xs">
-                        <span>美食</span>
+						<i class="glyphicon glyphicon-search"></i>
+                        <span>美食说明</span>
                     </p>
+					<span class="case-title">美食</span>
 				</div>
 			</div>
 			<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="3800">
-				<div class="case-wrap" data-title="教育" data-demo="education">
+				<div class="case-wrap text-center" data-title="教育" data-demo="education">
 					<img src="images/company-img-3.jpg" alt="教育">
                     <p class="case-hover hidden-xs">
-                        <span>教育</span>
+						<i class="glyphicon glyphicon-search"></i>
+                        <span>教育说明</span>
                     </p>
+					<span class="case-title">教育</span>
 				</div>
 			</div>
 			<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="3800">
-				<div class="case-wrap" data-title="金融" data-demo="finance">
+				<div class="case-wrap text-center" data-title="金融" data-demo="finance">
 					<img src="images/company-img-4.jpg" alt="金融">
                     <p class="case-hover hidden-xs">
-                        <span>金融</span>
+						<i class="glyphicon glyphicon-search"></i>
+						<span>金融说明</span>
                     </p>
+					<span class="case-title">金融</span>
 				</div>
 			</div>
 		</div>
@@ -266,22 +283,50 @@
 <section id="contact">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 text-center wow fadeInDown" data-wow-delay="2000">
-				<h3>联系我们</h3>
-			</div>
-			<div class="col-md-8">
+			<!--<h3 class="text-center wow fadeInDown" data-wow-delay="2000">联系我们</h3>
+			<div class="col-md-offset-2 col-md-8 col-sm-12 text-center">
 				<p>您好，如有任何问题请联系我们，欢迎提交任何关于我们的问题和建议，我们将尽快回复您。感谢您对我们的帮助。我们7*24小时竭诚为您服务​</p>
+			</div>-->
+			<div class="col-md-4 col-xs-12">
+				<div class="media wow flipInX">
+					<div class="media-left">
+						<i class="glyphicon glyphicon-phone-alt"></i>
+					</div>
+					<div class="media-body">
+						<h4 class="media-heading">联系电话</h4>
+						<p>12345678901</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-xs-12">
+				<div class="media wow flipInX">
+					<div class="media-left">
+						<i class="glyphicon glyphicon-phone"></i>
+					</div>
+					<div class="media-body">
+						<h4 class="media-heading">手机</h4>
+						<p>12345678901</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-xs-12">
+				<div class="media wow flipInX">
+					<div class="media-left">
+						<i class="glyphicon glyphicon-envelope"></i>
+					</div>
+					<div class="media-body">
+						<h4 class="media-heading">联系邮箱</h4>
+						<p>12345678901</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
-	<footer class="container text-center">
-		<div class="col-md-12 wow fadeInUp" data-wow-duration="0.4s" data-wow-delay="0.4s">
-			<span>Copyright &copy; 2017</span>
-		</div>
-	</footer>
 </section>
 <!-- end contact -->
-
+<footer class="container text-center">
+	<span>Copyright &copy; 2017</span>
+</footer>
 <!-- Modal -->
 <div class="modal" id="webApp" tabindex="-1" role="dialog" aria-labelledby="webAppLabel">
 	<div class="modal-dialog" role="document">
