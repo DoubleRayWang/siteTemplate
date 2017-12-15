@@ -413,7 +413,6 @@ $(function () {
     var _posterTvGrid = new posterTvGrid('posterTvGrid', {
         height: 665
     });
-    $(".rotate").textrotator();
     dom.service.on('click', '.case-wrap', function () {
         var _this = $(this);
         dom.modal.one('shown.bs.modal', function () {
