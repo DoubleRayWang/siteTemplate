@@ -127,7 +127,7 @@ gulp.task(task.minImage, function () {
 });
 //清空操作
 gulp.task('del:public', function (cb) {
-    return del(["public"], cb)
+    return del(["public","rev"], cb)
 });
 gulp.task("public", function () {
     return gulp.src(["dist/**/*", "!dist/css/*", "!dist/js/*", "!dist/*.html", config.source.src.pFile])
